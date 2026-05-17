@@ -44,7 +44,7 @@ body {
   text-size-adjust: 100%;
 }
 
-/* Full-bleed background — uses public/assets/henna_background.jpeg */
+/* Full-bleed background — uses public/assets/henna_background.jpg */
 .scene {
   min-height: 100dvh;
   min-height: 100vh;
@@ -59,7 +59,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #e9e2d6;
-  background-image: url("public/assets/henna_background.jpeg");
+  background-image: url("public/assets/henna_background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
