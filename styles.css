@@ -118,17 +118,18 @@ body {
 
 .honoree {
   margin: 0 0.2em;
+  flex-shrink: 0;
   width: max-content;
   max-width: none;
   white-space: nowrap;
   overflow: visible;
-  /* Great Vibes swashes (especially “m”) extend past the em box */
-  padding-inline: 0.1em 0.55em;
+  /* Script ascenders/descenders + background-clip:text need room beyond line-height:1 */
+  padding: 0.28em 0.55em 0.12em 0.1em;
   box-sizing: content-box;
   font-family: var(--font-script);
   font-size: clamp(4.02rem, 15.84vw, 6.24rem);
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.35;
 }
 
 .details {
