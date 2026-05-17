@@ -314,6 +314,17 @@ body {
   outline-offset: 3px;
 }
 
+@media (orientation: portrait) and (max-width: 768px) {
+  .arch-panel {
+    top: 0;
+    min-height: 46vh;
+  }
+
+  .details {
+    transform: translateY(clamp(-2.75rem, -5vh, -1.5rem));
+  }
+}
+
 @media (orientation: portrait) and (max-width: 480px) {
   .scene {
     padding-left: max(0.4rem, env(safe-area-inset-left, 0px));
@@ -321,10 +332,13 @@ body {
   }
 
   .arch-panel {
-    top: 2vh;
-    min-height: 48vh;
+    min-height: 44vh;
     width: min(400px, 100%);
     padding-inline: 0.35rem;
+  }
+
+  .details {
+    transform: translateY(clamp(-3.25rem, -6vh, -2rem));
   }
 }
 
