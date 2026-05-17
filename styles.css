@@ -321,7 +321,7 @@ body {
   }
 
   .details {
-    transform: translateY(clamp(-2.75rem, -5vh, -1.5rem));
+    transform: translateY(clamp(-1.93rem, -3.5vh, -1.05rem));
   }
 }
 
@@ -338,7 +338,7 @@ body {
   }
 
   .details {
-    transform: translateY(clamp(-3.25rem, -6vh, -2rem));
+    transform: translateY(clamp(-2.28rem, -4.2vh, -1.4rem));
   }
 }
 
